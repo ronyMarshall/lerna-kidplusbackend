@@ -1,6 +1,6 @@
 {
   "name": "@kidplusbackend/api-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "",
   "private": false,
@@ -54,5 +54,6 @@
     "ts-node": "^10.0.0",
     "tsconfig-paths": "^3.10.1",
     "typescript": "^4.3.5"
-  }
+  },
+  "gitHead": "afe5890cf114bab39b3f2e157dc4748c8f86d214"
 }

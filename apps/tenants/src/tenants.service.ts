@@ -7,6 +7,6 @@ export class TenantsService {
   }
 
   test() {
-    return 'test';
+    return 'test!';
   }
 }

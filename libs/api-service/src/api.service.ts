@@ -60,7 +60,7 @@ export class ApiService {
 
   private getDefaultHeaders() {
     return {
-      authorization: '',
+      authorization: 'auth',
     };
   }
 }
