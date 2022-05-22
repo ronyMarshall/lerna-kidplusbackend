@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/kidplusbackend/src",
+  "monorepo": true,
+  "root": "apps/kidplusbackend",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/kidplusbackend/tsconfig.app.json"
+  },
+  "projects": {
+    "kidplusbackend": {
+      "type": "application",
+      "root": "apps/kidplusbackend",
+      "entryFile": "main",
+      "sourceRoot": "apps/kidplusbackend/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/kidplusbackend/tsconfig.app.json"
+      }
+    },
+    "tenants": {
+      "type": "application",
+      "root": "apps/tenants",
+      "entryFile": "main",
+      "sourceRoot": "apps/tenants/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/tenants/tsconfig.app.json"
+      }
+    }
+  }
+}
